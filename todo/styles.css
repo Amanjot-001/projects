@@ -1,0 +1,93 @@
+/* Reset default styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+	color: #333;
+  }
+  
+  /* Container styles */
+  .container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header styles */
+  .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .header h1 {
+	font-size: 32px;
+  }
+  
+  /* Form styles */
+  #new-task-form {
+	display: flex;
+	margin-bottom: 20px;
+  }
+  
+  #new-task-input {
+	flex-grow: 1;
+	margin-right: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+  }
+  
+  #new-task-submit {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  /* Task list styles */
+  .task-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .task-list li {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .task-list li input[type="checkbox"] {
+	margin-right: 10px;
+	cursor: pointer;
+  }
+  
+  .task-list li label {
+	flex-grow: 1;
+	cursor: pointer;
+  }
+  
+  .task-list li .delete-btn {
+	padding: 5px 10px;
+	background-color: #f44336;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
